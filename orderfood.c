@@ -88,7 +88,7 @@ void orderfood(void)
 
         else if (choice==0)
         {
-            \\Replace "clear" with "cls" for windows users
+            //Replace "clear" with "cls" for windows users
             system("clear");
             customer();
         }
