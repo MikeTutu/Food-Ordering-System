@@ -12,20 +12,17 @@ void customer(void)
     int c;
     scanf("%d",&c);
     
-    // int load;
-    // for(load=0; load<=5000; load++)
-    // {
-    //     printf("\rloading :%d", load/50);
-    // }
 
     if(c==1)
     {
+        //Replace "clear" with "cls" for windows users
         system("clear");
         orderfood();
         
     }
     else if (c==2)
     {
+        //Replace "clear" with "cls" for windows users
         system("clear");
         printf("vieworder();");
         if(getchar());
@@ -34,6 +31,7 @@ void customer(void)
     }
     else if (c==3)
     {
+        //Replace "clear" with "cls" for windows users
         system("clear");
         mainmenu();
     }
