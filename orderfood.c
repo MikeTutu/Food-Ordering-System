@@ -46,14 +46,16 @@ void orderfood(void)
             printf("\n\n");
             orderfood();
         }
-        else if (again==2){
+        else if (again==2)
+        {
             printf("Your Total Amount is: %.2f\n\n", total);
 
             int totl = total;
             FILE*ttl;
             ttl=fopen("order.txt","a");
             fprintf(ttl, "\nGrand Total:%d\n",totl);
-            fclose(ttl);}
+            fclose(ttl);
+        }
     
         customerdetails();
         
@@ -86,6 +88,7 @@ void orderfood(void)
 
         else if (choice==0)
         {
+            \\Replace "clear" with "cls" for windows users
             system("clear");
             customer();
         }
