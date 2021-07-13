@@ -33,6 +33,7 @@ void mainmenu(void)
         }
         break;
         case 3:{
+            \\Replace "clear" with "cls" for windows users
             system("clear");
             printf("\n\n\n");
             printf("\t___________________________________________________________\n");
